@@ -8,6 +8,8 @@ import ResetPassword from "./pages/Reset-Password";
 
 // Dashboard Routes
 import Dashboard from "./pages/dashboard/Index";
+import Profile from "./pages/dashboard/Profile";
+import Invoice from "./pages/dashboard/Invoice";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
         <Route element={<ForgotPassword />} path="/forgot-password" />
         <Route element={<ResetPassword />} path="/reset-password" />
         <Route element={<Dashboard />} path="/dashboard" />
+        <Route element={<Profile />} path="/profile" />
+        <Route element={<Invoice />} path="/invoice/:id" />
       </Routes>
     </BrowserRouter>
   )

@@ -5,7 +5,7 @@ const Customers = () => {
         <div class="col-12">
           <div class="card">
             <div class="card-header">
-              <h4>Assign Task Table</h4>
+              <h4>Customers Table</h4>
               <div class="card-header-form">
                 <form>
                   <div class="input-group">
@@ -28,11 +28,11 @@ const Customers = () => {
                           <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
                       </div>
                     </th>
-                    <th>Task Name</th>
-                    <th>Members</th>
-                    <th>Task Status</th>
-                    <th>Assigh Date</th>
-                    <th>Due Date</th>
+                    <th>Name</th>
+                    <th>Lights</th>
+                    <th>Order Status</th>
+                    <th>Placed At</th>
+                    <th>Delivery Date</th>
                     <th>Priority</th>
                     <th>Action</th>
                   </tr>

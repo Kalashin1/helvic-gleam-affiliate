@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="form-inline mr-auto">
       <ul className="navbar-nav mr-3">
         <li><a href="!" data-toggle="sidebar" className="nav-link nav-link-lg
-              collapse-btn"> <i data-feather="align-justify"></i></a></li>
+              collapse-btn"> <i data-feather="align-justify" className="fas fa-bars text-dark"></i></a></li>
         <li><a href="!" className="nav-link nav-link-lg fullscreen-btn">
             <i data-feather="maximize"></i>
           </a></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
     </div>
     <ul className="navbar-nav navbar-right">
       <li className="dropdown dropdown-list-toggle"><a href="!" data-toggle="dropdown"
-          className="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+          className="nav-link nav-link-lg message-toggle"><i data-feather="mail" className="fas fa-envelope text-dark"></i>
           <span className="badge headerBadge1">
             6 </span> </a>
         <div className="dropdown-menu dropdown-list dropdown-menu-right pullDown">
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
       </li>
       <li className="dropdown dropdown-list-toggle"><a href="!" data-toggle="dropdown"
-          className="nav-link notification-toggle nav-link-lg"><i data-feather="bell" className="bell"></i>
+          className="nav-link notification-toggle nav-link-lg"><i data-feather="bell" className="fas fa-bell text-dark"></i>
         </a>
         <div className="dropdown-menu dropdown-list dropdown-menu-right pullDown">
           <div className="dropdown-header">

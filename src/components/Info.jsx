@@ -9,7 +9,7 @@ const Info = () => {
                 <div className="row ">
                   <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                     <div className="card-content">
-                      <h5 className="font-15">New Booking</h5>
+                      <h5 className="font-15">New Orders</h5>
                       <h2 className="mb-3 font-18">258</h2>
                       <p className="mb-0"><span className="col-green">10%</span> Increase</p>
                     </div>
@@ -53,9 +53,9 @@ const Info = () => {
                 <div className="row ">
                   <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 pr-0 pt-3">
                     <div className="card-content">
-                      <h5 className="font-15">New Project</h5>
+                      <h5 className="font-15">Total Orders</h5>
                       <h2 className="mb-3 font-18">128</h2>
-                      <p className="mb-0"><span className="col-green">18%</span>
+                      <p className="mb-0"><span className="col-green">18% </span>
                         Increase</p>
                     </div>
                   </div>

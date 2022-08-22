@@ -27,7 +27,8 @@ const Register = () => {
       if (formObject['confirm'] !== formObject['password']){
         throw Error('Passwords do not match');
       }
-      const userCredentials = createUserWithEmailAndPassword(auth, formObject.email.toLowerCase(), formObject.password);
+      const userCredentials = await createUserWithEmailAndPassword(auth, formObject.email.toLowerCase(), formObject.password);
+      console.log(userCredentials)
       const user = userCredentials.user;
       localStorage.setItem('userId', user.uid);
       console.log(user);
@@ -37,7 +38,7 @@ const Register = () => {
         sales: [],
       })
       sendEmailVerification(auth.currentUser);
-      await navigate('/login')
+      await navigate('/dashboard')
     } catch (error) {
       setShowEmailError(true);
       console.log(error);
