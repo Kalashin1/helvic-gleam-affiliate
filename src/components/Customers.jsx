@@ -1,31 +1,31 @@
 const Customers = () => {
   return (
     <>
-      <div class="row">
-        <div class="col-12">
-          <div class="card">
-            <div class="card-header">
+      <div className="row">
+        <div className="col-12">
+          <div className="card">
+            <div className="card-header">
               <h4>Customers Table</h4>
-              <div class="card-header-form">
+              <div className="card-header-form">
                 <form>
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" />
-                      <div class="input-group-btn">
-                        <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                  <div className="input-group">
+                    <input type="text" className="form-control" placeholder="Search" />
+                      <div className="input-group-btn">
+                        <button className="btn btn-primary"><i className="fas fa-search"></i></button>
                       </div>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="card-body p-0">
-              <div class="table-responsive">
-                <table class="table table-striped">
+            <div className="card-body p-0">
+              <div className="table-responsive">
+                <table className="table table-striped">
                   <tr>
-                    <th class="text-center">
-                      <div class="custom-checkbox custom-checkbox-table custom-control">
+                    <th className="text-center">
+                      <div className="custom-checkbox custom-checkbox-table custom-control">
                         <input type="checkbox" data-checkboxes="mygroup" data-checkbox-role="dad"
-                          class="custom-control-input" id="checkbox-all" />
-                          <label for="checkbox-all" class="custom-control-label">&nbsp;</label>
+                          className="custom-control-input" id="checkbox-all" />
+                          <label for="checkbox-all" className="custom-control-label">&nbsp;</label>
                       </div>
                     </th>
                     <th>Name</th>
@@ -37,214 +37,214 @@ const Customers = () => {
                     <th>Action</th>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-1" />
-                          <label for="checkbox-1" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-1" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Create a mobile app</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Wildan Ahdian" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-9.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-10.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Sarah Smith" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+4</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+4</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">50%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar bg-success" data-width="50%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">50%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar bg-success" data-width="50%"></div>
                       </div>
                     </td>
                     <td>2018-01-20</td>
                     <td>2019-05-28</td>
                     <td>
-                      <div class="badge badge-success">Low</div>
+                      <div className="badge badge-success">Low</div>
                     </td>
-                    <td><a href="!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-2" />
-                          <label for="checkbox-2" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-2" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Redesign homepage</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-1.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Wildan Ahdian" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-2.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+2</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+2</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">40%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar bg-danger" data-width="40%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">40%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar bg-danger" data-width="40%"></div>
                       </div>
                     </td>
                     <td>2017-07-14</td>
                     <td>2018-07-21</td>
                     <td>
-                      <div class="badge badge-danger">High</div>
+                      <div className="badge badge-danger">High</div>
                     </td>
-                    <td><a href="!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-3" />
-                          <label for="checkbox-3" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-3" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Backup database</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-3.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Wildan Ahdian" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-4.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-5.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Sarah Smith" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+3</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+3</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">55%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar bg-purple" data-width="55%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">55%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar bg-purple" data-width="55%"></div>
                       </div>
                     </td>
                     <td>2019-07-25</td>
                     <td>2019-08-17</td>
                     <td>
-                      <div class="badge badge-info">Average</div>
+                      <div className="badge badge-info">Average</div>
                     </td>
-                    <td><a href="!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-4" />
-                          <label for="checkbox-4" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-4" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Android App</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-7.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Sarah Smith" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+4</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+4</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">70%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar" data-width="70%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">70%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar" data-width="70%"></div>
                       </div>
                     </td>
                     <td>2018-04-15</td>
                     <td>2019-07-19</td>
                     <td>
-                      <div class="badge badge-success">Low</div>
+                      <div className="badge badge-success">Low</div>
                     </td>
-                    <td><a href="!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-5" />
-                          <label for="checkbox-5" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-5" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Logo Design</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-9.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Wildan Ahdian" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-10.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-2.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Sarah Smith" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+2</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+2</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">45%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar bg-cyan" data-width="45%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">45%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar bg-cyan" data-width="45%"></div>
                       </div>
                     </td>
                     <td>2017-02-24</td>
                     <td>2018-09-06</td>
                     <td>
-                      <div class="badge badge-danger">High</div>
+                      <div className="badge badge-danger">High</div>
                     </td>
-                    <td><a href="!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                   <tr>
-                    <td class="p-0 text-center">
-                      <div class="custom-checkbox custom-control">
-                        <input type="checkbox" data-checkboxes="mygroup" class="custom-control-input"
+                    <td className="p-0 text-center">
+                      <div className="custom-checkbox custom-control">
+                        <input type="checkbox" data-checkboxes="mygroup" className="custom-control-input"
                           id="checkbox-6" />
-                          <label for="checkbox-6" class="custom-control-label">&nbsp;</label>
+                          <label for="checkbox-6" className="custom-control-label">&nbsp;</label>
                       </div>
                     </td>
                     <td>Ecommerce website</td>
-                    <td class="text-truncate">
-                      <ul class="list-unstyled order-list m-b-0 m-b-0">
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                    <td className="text-truncate">
+                      <ul className="list-unstyled order-list m-b-0 m-b-0">
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-8.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Wildan Ahdian" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-9.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="John Deo" /></li>
-                        <li class="team-member team-member-sm"><img class="rounded-circle"
+                        <li className="team-member team-member-sm"><img className="rounded-circle"
                           src="assets/img/users/user-10.png" alt="user" data-toggle="tooltip" title=""
                           data-original-title="Sarah Smith" /></li>
-                        <li class="avatar avatar-sm"><span class="badge badge-primary">+4</span></li>
+                        <li className="avatar avatar-sm"><span className="badge badge-primary">+4</span></li>
                       </ul>
                     </td>
-                    <td class="align-middle">
-                      <div class="progress-text">30%</div>
-                      <div class="progress" data-height="6">
-                        <div class="progress-bar bg-orange" data-width="30%"></div>
+                    <td className="align-middle">
+                      <div className="progress-text">30%</div>
+                      <div className="progress" data-height="6">
+                        <div className="progress-bar bg-orange" data-width="30%"></div>
                       </div>
                     </td>
                     <td>2018-01-20</td>
                     <td>2019-05-28</td>
                     <td>
-                      <div class="badge badge-info">Average</div>
+                      <div className="badge badge-info">Average</div>
                     </td>
-                    <td><a href="!!#" class="btn btn-outline-primary">Detail</a></td>
+                    <td><a href="!!#" className="btn btn-outline-primary">Detail</a></td>
                   </tr>
                 </table>
               </div>
